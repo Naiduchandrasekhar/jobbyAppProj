@@ -1,0 +1,27 @@
+.notFoundContainer {
+  background-color: #121212;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.pageText {
+  color: #ffffff;
+  font-size: 35px;
+  font-family: 'Roboto';
+}
+
+.paraText {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.notFoundPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}

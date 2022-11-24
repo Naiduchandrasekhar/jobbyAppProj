@@ -1,0 +1,253 @@
+.jobBgContainer {
+  background-color: black;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.mainJobItemContainer {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.jobItemsContainer {
+  background-color: #202020;
+  padding: 25px;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 90vh;
+  width: 90vw;
+  margin-bottom: 45px;
+}
+
+.jobLogoContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.jobCompanyLogo {
+  height: 70px;
+  margin-right: 10px;
+}
+
+.jobTitle {
+  font-size: 19px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.starLogo {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #fbbf24;
+}
+
+.jobStarRating {
+  display: flex;
+  align-items: center;
+  height: 25px;
+  color: #ffffff;
+}
+
+.JobCardContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+}
+
+.JobLocationEmploy {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.JobLe {
+  display: flex;
+  align-items: center;
+}
+
+.salary {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  padding-right: 40px;
+}
+
+.JobEmployment {
+  margin-left: 10px;
+  margin-right: 20px;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+.locationAndInternshipLogos {
+  font-size: 24px;
+}
+
+.jobs-card-horizontal-line {
+  background-color: #475569;
+  border: 1px solid #475569;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.VisitContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #4f46e5;
+  cursor: pointer;
+}
+
+.visitLink {
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 10px;
+  color: #4f46e5;
+}
+
+.jobDescription {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.jobDescriptionPara {
+  font-size: 20px;
+  color: #cbd5e1;
+  font-family: 'Roboto';
+}
+
+.skills {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.listSkillLogos {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 70vw;
+}
+
+.skillLogo {
+  height: 60px;
+  margin-right: 20px;
+}
+
+.skillList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 55px;
+  padding-left: 0px;
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+
+.skillName {
+  font-size: 17px;
+}
+
+.lifeAtCompany {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .lifeAtCompany {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.lifeAtCompanyHeading {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+}
+
+.lifeAtCompanyPara {
+  color: #cbd5e1;
+  font-size: 20px;
+  font-family: 'Roboto';
+  line-height: 2rem;
+}
+
+.similarCardContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 90vw;
+}
+
+.unorderSimilarCardList {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.similarCardItem {
+  background-color: #202020;
+  height: 450px;
+  width: 330px;
+  margin: 18px;
+  margin-left: 0px;
+  padding: 15px;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.similarJobsHeading {
+  color: #f1f5f9;
+}
+
+.similarjobDescriptionPara {
+  font-size: 16px;
+  color: #f1f5f9;
+}
+
+.jobItemFailure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  color: #f8fafc;
+  text-align: center;
+}
+
+.failureContainer {
+  padding: 5px;
+  font-family: 'Roboto';
+}
+
+.loaderJobs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  align-items: 100vw;
+}

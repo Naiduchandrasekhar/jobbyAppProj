@@ -1,0 +1,240 @@
+.profileBgContainer {
+  background-color: #121212;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.profileCardContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 230px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.mainProfileContainer {
+  padding: 25px;
+  min-width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.hrLine {
+  background-color: #475569;
+  border: 1px solid #475569;
+}
+
+.profilePic {
+  height: 35px;
+}
+
+.profileName {
+  font-size: 18px;
+  color: #6366f1;
+  font-family: 'Roboto';
+}
+
+.shortBio {
+  font-size: 13px;
+  color: #64748b;
+}
+
+.employmentList {
+  list-style-type: none;
+  padding-left: 0px;
+  color: #ffffffff;
+}
+
+.listItems {
+  font-size: 13px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.headerListText {
+  font-size: 16px;
+  color: #ffffffff;
+  font-family: 'Roboto';
+}
+
+.checkBoxContainer {
+  display: flex;
+  align-items: center;
+}
+
+.mainPJContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .mainPJContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+}
+
+.jobsContainer {
+  width: 80%;
+  padding: 15px;
+}
+
+.searchBar {
+  border: 1px solid #7e858e;
+  height: 35px;
+  width: 80%;
+  max-width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  min-width: 250px;
+}
+
+.searchInput {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #ffffffff;
+  width: 100%;
+}
+
+.search-icon {
+  color: #ffffffff;
+  font-size: 15px;
+}
+
+.searchButton {
+  background-color: #202020;
+  padding: 5px;
+  width: 60px;
+  border: none;
+}
+
+.unorderJobList {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.list {
+  background-color: #202020;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  color: #f8fafc;
+  width: 95%;
+  border-radius: 12px;
+}
+
+.linkJobs {
+  text-decoration: none;
+}
+
+.companyLogo {
+  height: 60px;
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+.star {
+  font-size: 15px;
+  margin-right: 10px;
+  color: #fbbf24;
+}
+
+.starRating {
+  display: flex;
+  align-items: center;
+  height: 25px;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.locationEmploy {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.le {
+  display: flex;
+  align-items: center;
+}
+
+.employment {
+  margin-left: 10px;
+  margin-right: 20px;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-card-horizontal-line {
+  background-color: #475569;
+  border: 1px solid #475569;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.descriptionHeading {
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+.descriptionPara {
+  font-size: 13px;
+  font-family: 'Roboto';
+  color: #cbd5e1;
+}
+
+.failureContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  color: #f8fafc;
+  text-align: center;
+}
+
+.fview {
+  height: 250px;
+}
+
+.no-jobs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #ffffffff;
+  font-family: 'Roboto';
+}
